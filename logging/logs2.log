@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-19T12:49:22</date>
+  <millis>1650352762140</millis>
+  <sequence>0</sequence>
+  <logger>com.example.model.Book</logger>
+  <level>INFO</level>
+  <class>com.example.LoggingWithPropSaveFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Logging Properties Done Right</message>
+</record>
+<record>
+  <date>2022-04-19T12:49:22</date>
+  <millis>1650352762159</millis>
+  <sequence>1</sequence>
+  <logger>com.example.model.Book</logger>
+  <level>INFO</level>
+  <class>com.example.model.Book</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Book with ZERO Argument Consturcted</message>
+</record>
+<record>
+  <date>2022-04-19T12:49:22</date>
+  <millis>1650352762160</millis>
+  <sequence>2</sequence>
+  <logger>com.example.model.Book</logger>
+  <level>INFO</level>
+  <class>com.example.LoggingWithPropSaveFile</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Book [bookNumber=0, bookName=null, author=null, price=0.0]</message>
+</record>
+</log>

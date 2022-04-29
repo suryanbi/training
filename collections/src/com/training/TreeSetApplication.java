@@ -22,6 +22,8 @@ public class TreeSetApplication {
 		set.add(shyam);
 		set.add(ram);
 		
+		//System.out.println(set);
+		
 		for (Student eachStudent:set) {
 		
 		System.out.println(eachStudent.getFirstName());

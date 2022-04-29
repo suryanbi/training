@@ -97,7 +97,7 @@ public class StringService {
 	
 	public void usingStringFormat(long value) {
 		
-		System.out.println(String.format("%+d", value));
+		System.out.println(String.format("UsingStringFormat %+d", value));
 	}
 
 }

@@ -12,7 +12,7 @@ public class HashSetApllication {
 		Student mahesh = new Student(103,"mahesh", 88);
 		Student mmahesh = new Student(103,"mahesh", 88);
 		
-		Set<Student> set = new HashSet<>();
+		HashSet<Student> set = new HashSet<>();
 		
 		set.add(mmahesh);
 		set.add(mahesh);

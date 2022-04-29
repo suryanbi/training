@@ -38,14 +38,14 @@ public class HashMapApp2 {
 			System.out.println(eachStudent);
 		}
 		
-		Set<Map.Entry<Integer, Student>> list2 = map.entrySet();
+		//Set<Map.Entry<Integer, Student>> list2 = map.entrySet();
 		
-		for(Map.Entry<Integer,Student> eachEntry:list2) {
+		//for(Map.Entry<Integer,Student> eachEntry:list2) {
 			
-			System.out.println(eachEntry.getKey());
-			System.out.println(eachEntry.getValue());
+			//System.out.println(eachEntry.getKey());
+			//System.out.println(eachEntry.getValue());
 		}
 		
 	}
 
-}
+//}

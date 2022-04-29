@@ -29,12 +29,15 @@ public class Application {
 		double salary = 42500.00;
 		
 		int intSal = (int)salary;
+		System.out.println(intSal);
 		
 		int age = 22;
 		
 		String strAge = Integer.toString(age);
 		
 		int intAge = Integer.valueOf(strAge);
+		
+		System.out.println(intAge);
 
 	}
 

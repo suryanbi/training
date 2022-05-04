@@ -34,7 +34,8 @@ public class UsingStreams {
 				.filter(e -> e.getPrice()>500).distinct()
 				.collect(toMap(Book::getBookName,Book::getPrice));
 		
-		values.forEach((key, value) -> System.out.println(key + "," + value));
+		//values.forEach((key, value) -> System.out.println(key + "," + value));
+		System.out.println(values);
 	}
 	
 	public static void findMaxPrice(List<Book> bookList) {
@@ -96,7 +97,7 @@ public class UsingStreams {
 //		System.out.println("============Maximum Price===============");
 //		findMaxPrice(bookList);
 		
-		int key = 6;
+		int key = 3;
 		switch (key) {
 		case 1:
 			useDistinct(bookList);

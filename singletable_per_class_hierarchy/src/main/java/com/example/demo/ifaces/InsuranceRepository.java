@@ -11,12 +11,12 @@ import com.example.demo.entity.LifeInsurance;
 
 public interface InsuranceRepository<T extends Insurance> extends JpaRepository<T, Integer> {
 	
-	@Query("from LifeInsurance")
-	List<LifeInsurance> findAllLifePolicy();
-	
-	@Query("from HealthInsurance")
-	List<HealthInsurance> findAllHealthPolicy();
-	
+//	@Query("from LifeInsurance")
+//	List<LifeInsurance> findAllLifePolicy();
+//	
+//	@Query("from HealthInsurance")
+//	List<HealthInsurance> findAllHealthPolicy();
+//	
 	
 
 }

@@ -3,6 +3,9 @@ spring:
     url: jdbc:oracle:thin:@10.90.1.105:1521/DEV
     username: HR
     password: HR
+    
+  application:
+     name: rest-example
   
   jpa:
     properties:
@@ -11,3 +14,5 @@ spring:
     show-sql: true
     hibernate: 
       ddl-auto: update
+      
+server.port: 8070

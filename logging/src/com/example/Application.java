@@ -17,6 +17,7 @@ public class Application {
 		
 		log.warning("Warning Message");
 		log.severe("Severe Message");
+	
 		
 
 	}

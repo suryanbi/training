@@ -29,10 +29,9 @@ public class ProductService {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		
-		
-		
+
 		return rowsUpdated;
+		
 	}
 	
 	
@@ -62,7 +61,7 @@ public class ProductService {
 		
 		String sql = "select * from surya_product where product_id=?";
 		
-		try(PreparedStatement pstmt = con.prepareStatement(sql)){
+		try(PreparedStatement pstmt = con.prepareStatement(sql)) {
 			
 			pstmt.setInt(1, id);
 			ResultSet rs = pstmt.executeQuery();
@@ -109,7 +108,7 @@ public class ProductService {
 	
 	public List<Product> findAll(){
 		
-		List<Product> productList = new ArrayList<Product>();
+		List<Product>productList = new ArrayList<Product>();
 		String sql = "select * from surya_product";
 		try(PreparedStatement pstmt = con.prepareStatement(sql)){
 			

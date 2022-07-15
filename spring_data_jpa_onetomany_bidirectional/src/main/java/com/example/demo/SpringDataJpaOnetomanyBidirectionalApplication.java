@@ -19,8 +19,10 @@ public class SpringDataJpaOnetomanyBidirectionalApplication {
 		
 		Utility obj = ctx.getBean(Utility.class);
 		//obj.create();
-		obj.findAll();
-		//obj.findDoctorFrmPatient();
+		
+		//obj.findAll();
+		
+		obj.findDoctorFrmPatient();
 		
 		ctx.close();
 	}
@@ -31,25 +33,30 @@ public class SpringDataJpaOnetomanyBidirectionalApplication {
 		doc.setDoctorId(411);
 		doc.setDoctorName("Sri");
 		doc.setDepartment("General");
-		doc.setPhoneNumber(897656);
-		
-		return doc;
-	}
+		doc.setPhoneNumber(8976565678L);
 	
+		return doc;
+	
+	}
 	@Bean
 	public Patient sakthi() {
-		return new Patient(111, "Sakthi", 8976567);
+		return new Patient(111, "Sakthi", 8976567543L);
 		
 	}
 	@Bean
 	public Patient sam() {
-		return new Patient(112, "Sam", 89765456);
+		return new Patient(112, "Sam", 8976545679L);
 		
 	}
 	@Bean
 	public Patient sonu() {
-		return new Patient(113, "Sonu", 8973456);
+		return new Patient(113, "Sonu", 8973456754L);
 		
+	}
+	
+	@Bean
+	public Patient nani() {
+		return new Patient(114, "Nani", 8937648737L);
 	}
 		
 	

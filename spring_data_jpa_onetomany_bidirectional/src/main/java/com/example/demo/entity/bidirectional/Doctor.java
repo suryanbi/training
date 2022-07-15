@@ -39,6 +39,7 @@ public class Doctor {
 
 	@OneToMany(mappedBy = "doctor", targetEntity = Patient.class,
 			fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	
 	List<Patient> patientList;
 
 

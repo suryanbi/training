@@ -6,7 +6,6 @@ public class Book {
 	private int bookNumber;
 	public Book() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public Book(String bookName, int bookNumber) {
 		super();

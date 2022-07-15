@@ -35,7 +35,7 @@ public class SpringDataJpaOnetomanyApplication {
 		doc.setDoctorId(411);
 		doc.setDoctorName("Sri");
 		doc.setDepartment("General");
-		doc.setPhoneNumber(897656);
+		doc.setPhoneNumber(8976569843L);
 		
 		return doc;
 	}
@@ -43,19 +43,19 @@ public class SpringDataJpaOnetomanyApplication {
 	@Bean
 	public Patient sakthi() {
 		
-		return new Patient(1, "Sakthi", 98765);
+		return new Patient(1, "Sakthi", 9876545762L);
 	}
 	
 	@Bean
 	public Patient kavi() {
 		
-		return new Patient(2, "Kavi", 98765);
+		return new Patient(2, "Kavi", 9876623984L);
 	}
 	
 	@Bean
 	public Patient ram() {
 	
-	return new Patient(3, "Ram", 98765);
+	return new Patient(3, "Ram", 9876798712L);
 }
 
 }

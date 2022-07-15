@@ -20,12 +20,15 @@ public class SpringJpaRestApiApplication {
 		SpringApplication.run(SpringJpaRestApiApplication.class, args);
 	}
 	
+	
+	
 	@Bean
 	public CommandLineRunner runner() {
 		return new CommandLineRunner() {
 			
 			@Autowired
 			DriverRepository repo;
+			
 			@Override
 			public void run(String... args) throws Exception {
 				

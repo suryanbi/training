@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Taxi</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        h1{
+            border: 2px solid green;
+            border-left: 10px;
+            border-right: 10px;
+        }
+        body{
+            text-align: center;
+            background-image: url(images/taxi_image.jpg);
+          }
+          section{
+            background-color: rgb(255, 251, 240);
+            border: 8px solid black;
+            border-radius: 80px;
+            margin-left: 400px;
+            margin-right: 400px;
+            color: black;
+          }
+         div{
+            padding-top: 30px;
+            padding-bottom: 30px;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <section>
+            <form action="">
+                <h1>Book Taxi</h1>
+                <div>
+                    <label for="customerName">Customer Name</label>
+                    <input type="text" name="customerName" id="customerName">
+                </div>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div>
+                    <label for="time">Time</label>
+                    <input type="time" name="time" id="time">
+                </div>
+                <div>
+                    <label for="pickupPoint">Pickup Point</label>
+                    <input type="text" name="pickupPoint" id="pickupPoint">
+                </div>
+                <div>
+                    <label for="dropPoint">Drop Point</label>
+                    <input type="text" name="dropPoint" id="dropPoint">
+                </div>
+                <div>
+                    <label for="mobilenumber">Mobile Number</label>
+                    <input type="text" name="mobilenumber" id="mobilenumber">
+                </div>
+                <div>
+                    <label for="vechileType">Vechile Type</label>
+                    <select name="vechiletype" id="vechiletype">
+                        <option value="car">Car</option>
+                        <option value="tempo">Tempo</option>
+                        <option value="traveller">Traveller</option>
+                        <option value="bus">Bus</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="textBox">Text Box</label>
+                    <textarea name="textbox" spellcheck="true" value="textbox"></textarea>
+                </div>
+                <div>
+                    <input type="reset" value="Clear">
+                    <input type="submit" value="Submit">
+                </div>
+                </form>
+        </section>
+    </header>
+</body>
+</html>

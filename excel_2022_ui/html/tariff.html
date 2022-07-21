@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tariff</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        /*table tr:nth-child(2){
+            background-color: aqua;
+        }*/
+        /*table tr:nth-child(even){
+            background-color: aqua;
+        }*/
+        /*tbody tr:nth-child(odd){
+            background-color: aqua;
+        }*/
+        h1{
+            border: 2px solid green;
+            border-radius: 80px 80px;
+        }
+        section>img{
+            display: block;
+        }
+        section>img:first-child{
+            border-radius: 15px;
+        }
+        section>img:last-child{
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <img src="images/bmw_car.jpg" alt="bmw car">
+            <img src="images/traveller.jpg" alt="traveller">
+            <img src="images/indica car.jpg" alt="Indica car">
+            <img src="images/innova car.jpg" alt="Innova car">
+        </section>
+    </header>
+    <h1>Our Tariff</h1>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <td>SI.No</td>
+                <td>Model</td>
+                <td>Rate Per km</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Indica</td>
+                <td>Rs. 18.00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Innova</td>
+                <td>Rs. 22.00</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Traveller</td>
+                <td>Rs. 24.00</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>BMW</td>
+                <td>Rs. 28.00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

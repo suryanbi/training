@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #0000ff;
+   
+}
+
+table{
+    border: 1px solid #1199bb;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr,th,td{
+    border: 1px solid #1199bb;
+    text-align: center;
+}
